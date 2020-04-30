@@ -1,0 +1,17 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+	<type name="Magento\StoreGraphQl\Model\Resolver\Store\StoreConfigDataProvider">
+		<arguments>
+		<argument name="extendedConfigData">
+		<item name="magentoese_storystore_general_primary_surface" xsi:type="string">magentoese_storystore/general/primary_surface</item>
+        <item name="magentoese_storystore_general_primary_content" xsi:type="string">magentoese_storystore/general/primary_content</item>
+        <item name="magentoese_storystore_general_secondary_surface" xsi:type="string">magentoese_storystore/general/secondary_surface</item>
+        <item name="magentoese_storystore_general_secondary_content" xsi:type="string">magentoese_storystore/general/secondary_content</item>
+        <item name="magentoese_storystore_general_accent_surface" xsi:type="string">magentoese_storystore/general/accent_surface</item>
+        <item name="magentoese_storystore_general_accent_content" xsi:type="string">magentoese_storystore/general/accent_content</item>
+        <item name="magentoese_storystore_general_dark_mode" xsi:type="string">magentoese_storystore/general/dark_mode</item>
+        <item name="magentoese_storystore_general_home_page" xsi:type="string">magentoese_storystore/general/home_page</item>
+        <item name="magentoese_storystore_general_footer_block" xsi:type="string">magentoese_storystore/general/footer_block</item>
+		</argument>
+		</arguments>
+	</type>
+</config>
