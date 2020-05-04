@@ -1,0 +1,55 @@
+/** StoryStore UI **/
+
+@import url("https://use.typekit.net/ssh7gal.css");
+
+/* Reset */
+body {
+    font-family: source-sans-pro, Helvetica, sans-serif !important;
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+.page-header {
+    margin-bottom: 0;
+}
+
+
+.page-header .logo img {
+    width: auto;
+    max-height: 40px;
+}
+
+.page-footer {
+    margin-top: 0;
+}
+
+.columns .column.main {
+    padding-bottom: 0;
+}
+
+/* Hide Category Image in Category Page */
+.category-view .category-image {
+    display: none;
+}
+
+/* Full Mode in Row */
+[data-content-type="row"].full-screen {
+    height: 80vh;
+}
+
+/* Font styling in Text */
+[data-content-type="text"] h2 {
+    font-size: 2.2em;
+}
+
+[data-content-type="text"] h1,
+[data-content-type="text"] h2,
+[data-content-type="text"] h3,
+[data-content-type="text"] h4,
+[data-content-type="text"] h5 {
+    font-family: rucksack, Helvetica, sans-serif !important;
+    font-weight: 800;
+    word-break: break-word;
+    line-height: 0.9;
+}
