@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+     <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+        <default>
+            <magentoese_storystore>
+                <general>
+                    <primary_surface>#000000</primary_surface> <!-- black -->
+                    <primary_content>#ffffff</primary_content> <!-- white -->
+                    <secondary_surface>#ffffff</secondary_surface> <!-- white -->
+                    <secondary_content>#000000</secondary_content> <!-- black -->
+                    <accent_surface>#db9d33</accent_surface> <!-- brown -->
+                    <accent_content>#b3b7bd</accent_content> <!-- gray -->
+                    <dark_mode>0</dark_mode> <!-- default off -->
+                    <home_page>home-luma-ui</home_page> <!-- need to change -->
+                    <footer_block>footer</footer_block>
+                </general>
+            </magentoese_storystore>
+        </default>
+    </config>
