@@ -9,7 +9,7 @@
                     <secondary_surface>#ffffff</secondary_surface> <!-- white -->
                     <secondary_content>#000000</secondary_content> <!-- black -->
                     <accent_surface>#db9d33</accent_surface> <!-- brown -->
-                    <accent_content>#b3b7bd</accent_content> <!-- gray -->
+                    <accent_content>#fafafa</accent_content> <!-- gray -->
                     <dark_mode>0</dark_mode> <!-- default off -->
                     <home_page>home-luma-ui</home_page> <!-- need to change -->
                     <footer_block>footer</footer_block>
