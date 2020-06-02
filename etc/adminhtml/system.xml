@@ -10,50 +10,70 @@
             <label>Story Store</label>
             <tab>magentoese</tab>
             <resource>Magento_Ese::config_storystore</resource>
-            <group id="general" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="0" showInStore="0">
-                <label>Configuration</label>
-                <field id="primary_surface" translate="label" type="text" sortOrder="0" showInDefault="1" showInWebsite="1" showInStore="1">
-                    <label>Primary Surface</label>
-                    <comment><![CDATA[Background color]]></comment>
-                    <frontend_model>MagentoEse\StoryStore\Block\Color</frontend_model> 
+            <group id="all" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="0" showInStore="0">
+                <label>General</label>
+                <field id="custom_logo" translate="label" type="Magento\Config\Block\System\Config\Form\Field\File" sortOrder="0" showInDefault="1" showInWebsite="1" >
+                    <label>Logo</label>
+                    <backend_model>Magento\Config\Model\Config\Backend\File</backend_model>
+                    <upload_dir>upload</upload_dir>
                 </field>
-                <field id="primary_content" translate="label" type="text" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="1">
-                    <label>Primary Content</label>
-                    <comment><![CDATA[Content color]]></comment>
-                    <frontend_model>MagentoEse\StoryStore\Block\Color</frontend_model> 
-                </field>
-                <field id="secondary_surface" translate="label" type="text" sortOrder="2" showInDefault="1" showInWebsite="1" showInStore="1">
-                    <label>Secondary Surface</label>
-                    <comment><![CDATA[Background color]]></comment>
-                    <frontend_model>MagentoEse\StoryStore\Block\Color</frontend_model> 
-                </field>
-                <field id="secondary_content" translate="label" type="text" sortOrder="3" showInDefault="1" showInWebsite="1" showInStore="1">
-                    <label>Secondary Content</label>
-                    <comment><![CDATA[Content color]]></comment>
-                    <frontend_model>MagentoEse\StoryStore\Block\Color</frontend_model> 
-                </field>
-                <field id="accent_surface" translate="label" type="text" sortOrder="4" showInDefault="1" showInWebsite="1" showInStore="1">
-                    <label>Accent Surface</label>
-                    <comment><![CDATA[Background color]]></comment>
-                    <frontend_model>MagentoEse\StoryStore\Block\Color</frontend_model> 
-                </field>
-                <field id="accent_content" translate="label" type="text" sortOrder="5" showInDefault="1" showInWebsite="1" showInStore="1">
-                    <label>Accent Content</label>
-                    <comment><![CDATA[Content color]]></comment>
-                    <frontend_model>MagentoEse\StoryStore\Block\Color</frontend_model> 
-                </field>
-                <field id="dark_mode" translate="label" type="select" sortOrder="6" showInDefault="1" showInWebsite="1" showInStore="1">
-                    <label>Dark Mode</label>
-                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
-                </field>
-                <field id="home_page" translate="label" type="select" sortOrder="7" showInDefault="1" showInStore="1" showInWebsite="1">
-                    <label>Home Page</label>
-                    <source_model>Magento\Cms\Model\Config\Source\Page</source_model>
-                </field>
-                <field id="footer_block" translate="label" type="select" sortOrder="8" showInDefault="1" showInStore="1" showInWebsite="1">
-                    <label>Footer Block</label>
-                    <source_model>Magento\Cms\Model\Config\Source\Block</source_model>
-                </field>
+                <group id="content" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="0" showInStore="0">
+                <label>Content</label>
+                    <field id="home_page" translate="label" type="select" sortOrder="8" showInDefault="1" showInStore="1" showInWebsite="1">
+                        <label>Home Page</label>
+                        <source_model>Magento\Cms\Model\Config\Source\Page</source_model>
+                    </field>
+                    <field id="footer_block" translate="label" type="select" sortOrder="9" showInDefault="1" showInStore="1" showInWebsite="1">
+                        <label>Footer Block</label>
+                        <source_model>Magento\Cms\Model\Config\Source\Block</source_model>
+                    </field>
+                </group>
+                <group id="colors" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="0" showInStore="0">
+                <label>Colors</label>
+                    <field id="dark_mode" translate="label" type="select" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="1">
+                        <label>Dark Mode</label>
+                        <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                    </field>
+                    <field id="primary_surface" translate="label" type="text" sortOrder="2" showInDefault="1" showInWebsite="1" showInStore="1">
+                        <label>Primary Surface</label>
+                        <comment><![CDATA[Background color]]></comment>
+                        <frontend_model>MagentoEse\StoryStore\Block\Color</frontend_model> 
+                    </field>
+                    <field id="primary_content" translate="label" type="text" sortOrder="3" showInDefault="1" showInWebsite="1" showInStore="1">
+                        <label>Primary Content</label>
+                        <comment><![CDATA[Content color]]></comment>
+                        <frontend_model>MagentoEse\StoryStore\Block\Color</frontend_model> 
+                    </field>
+                    <field id="secondary_surface" translate="label" type="text" sortOrder="4" showInDefault="1" showInWebsite="1" showInStore="1">
+                        <label>Secondary Surface</label>
+                        <comment><![CDATA[Background color]]></comment>
+                        <frontend_model>MagentoEse\StoryStore\Block\Color</frontend_model> 
+                    </field>
+                    <field id="secondary_content" translate="label" type="text" sortOrder="5" showInDefault="1" showInWebsite="1" showInStore="1">
+                        <label>Secondary Content</label>
+                        <comment><![CDATA[Content color]]></comment>
+                        <frontend_model>MagentoEse\StoryStore\Block\Color</frontend_model> 
+                    </field>
+                    <field id="accent_surface" translate="label" type="text" sortOrder="6" showInDefault="1" showInWebsite="1" showInStore="1">
+                        <label>Accent Surface</label>
+                        <comment><![CDATA[Background color]]></comment>
+                        <frontend_model>MagentoEse\StoryStore\Block\Color</frontend_model> 
+                    </field>
+                    <field id="accent_content" translate="label" type="text" sortOrder="7" showInDefault="1" showInWebsite="1" showInStore="1">
+                        <label>Accent Content</label>
+                        <comment><![CDATA[Content color]]></comment>
+                        <frontend_model>MagentoEse\StoryStore\Block\Color</frontend_model> 
+                    </field>
+                </group>
+                <group id="misc_config" translate="label" type="text" sortOrder="2000" showInDefault="1" showInWebsite="0" showInStore="0">
+                <label>Misc Config</label>
+                    <field id="google_maps_api_key" translate="label comment" type="text" sortOrder="2010" showInDefault="1" showInWebsite="0" showInStore="0">
+                        <label>Google Maps API Key</label>
+                        <comment>
+                            <![CDATA[Enter API key to use the Map content type. <a href="https://developers.google.com/maps/documentation/javascript/get-api-key" target="_blank">Get API Key</a>.]]>
+                        </comment>
+                    </field>
+                </group>
             </group>
         </section>
     </system>
