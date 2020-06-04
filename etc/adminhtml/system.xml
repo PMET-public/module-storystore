@@ -73,6 +73,13 @@
                             <![CDATA[Enter API key to use the Map content type. <a href="https://developers.google.com/maps/documentation/javascript/get-api-key" target="_blank">Get API Key</a>.]]>
                         </comment>
                     </field>
+                    <field id="magento_version" translate="label comment" type="text" sortOrder="2011" showInDefault="1" showInWebsite="0" showInStore="0">
+                        <label>Magento Version</label>
+                        <frontend_model>MagentoEse\StoryStore\Block\Disable</frontend_model>
+                        <comment>
+                            <![CDATA[Current Magento Version]]>
+                        </comment>
+                    </field>
                 </group>
             </group>
         </section>

@@ -19,6 +19,7 @@
                     </colors>
                     <misc_config>
                         <google_maps_api_key></google_maps_api_key>
+                        <magento_version></magento_version>
                     </misc_config>
                 </all>
             </magentoese_storystore>

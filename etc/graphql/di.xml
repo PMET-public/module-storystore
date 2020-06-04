@@ -2,15 +2,17 @@
 	<type name="Magento\StoreGraphQl\Model\Resolver\Store\StoreConfigDataProvider">
         <arguments>
         <argument name="extendedConfigData">
-            <item name="storystore_pwa_primary_surface" xsi:type="string">magentoese_storystore/general/primary_surface</item>
-            <item name="storystore_pwa_primary_content" xsi:type="string">magentoese_storystore/general/primary_content</item>
-            <item name="storystore_pwa_secondary_surface" xsi:type="string">magentoese_storystore/general/secondary_surface</item>
-            <item name="storystore_pwa_secondary_content" xsi:type="string">magentoese_storystore/general/secondary_content</item>
-            <item name="storystore_pwa_accent_surface" xsi:type="string">magentoese_storystore/general/accent_surface</item>
-            <item name="storystore_pwa_accent_content" xsi:type="string">magentoese_storystore/general/accent_content</item>
-            <item name="storystore_pwa_dark_mode" xsi:type="string">magentoese_storystore/general/dark_mode</item>
-            <item name="storystore_pwa_home_page" xsi:type="string">magentoese_storystore/general/home_page</item>
-            <item name="storystore_pwa_footer_block" xsi:type="string">magentoese_storystore/general/footer_block</item>
+            <item name="storystore_pwa_primary_surface" xsi:type="string">magentoese_storystore/all/colors/primary_surface</item>
+            <item name="storystore_pwa_primary_content" xsi:type="string">magentoese_storystore/all/colors/primary_content</item>
+            <item name="storystore_pwa_secondary_surface" xsi:type="string">magentoese_storystore/all/colors/secondary_surface</item>
+            <item name="storystore_pwa_secondary_content" xsi:type="string">magentoese_storystore/all/colors/secondary_content</item>
+            <item name="storystore_pwa_accent_surface" xsi:type="string">magentoese_storystore/all/colors/accent_surface</item>
+            <item name="storystore_pwa_accent_content" xsi:type="string">magentoese_storystore/all/colors/accent_content</item>
+            <item name="storystore_pwa_dark_mode" xsi:type="string">mmagentoese_storystore/all/colors/dark_mode</item>
+            <item name="storystore_pwa_home_page" xsi:type="string">magentoese_storystore/all/content/home_page</item>
+            <item name="storystore_pwa_footer_block" xsi:type="string">magentoese_storystore/all/content/footer_block</item>
+            <item name="storystore_pwa_google_maps_api_key" xsi:type="string">magentoese_storystore/all/misc_config/google_maps_api_key</item>
+            <item name="storystore_pwa_magento_version" xsi:type="string">magentoese_storystore/all/misc_config/magento_version</item>
         </argument>
         </arguments>
     </type>
