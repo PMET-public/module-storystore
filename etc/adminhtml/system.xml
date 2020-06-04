@@ -41,7 +41,7 @@
                     </field>
                     <field id="primary_content" translate="label" type="text" sortOrder="3" showInDefault="1" showInWebsite="1" showInStore="1">
                         <label>Primary Content</label>
-                        <comment><![CDATA[Content color]]></comment>
+                        <comment><![CDATA[Text color]]></comment>
                         <frontend_model>MagentoEse\StoryStore\Block\Color</frontend_model> 
                     </field>
                     <field id="secondary_surface" translate="label" type="text" sortOrder="4" showInDefault="1" showInWebsite="1" showInStore="1">
@@ -51,7 +51,7 @@
                     </field>
                     <field id="secondary_content" translate="label" type="text" sortOrder="5" showInDefault="1" showInWebsite="1" showInStore="1">
                         <label>Secondary Content</label>
-                        <comment><![CDATA[Content color]]></comment>
+                        <comment><![CDATA[Text color]]></comment>
                         <frontend_model>MagentoEse\StoryStore\Block\Color</frontend_model> 
                     </field>
                     <field id="accent_surface" translate="label" type="text" sortOrder="6" showInDefault="1" showInWebsite="1" showInStore="1">
@@ -61,7 +61,7 @@
                     </field>
                     <field id="accent_content" translate="label" type="text" sortOrder="7" showInDefault="1" showInWebsite="1" showInStore="1">
                         <label>Accent Content</label>
-                        <comment><![CDATA[Content color]]></comment>
+                        <comment><![CDATA[Text color]]></comment>
                         <frontend_model>MagentoEse\StoryStore\Block\Color</frontend_model> 
                     </field>
                 </group>
