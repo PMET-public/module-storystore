@@ -5,7 +5,7 @@ type StoreConfig {
     storystore_pwa_secondary_content : String  @doc(description: "Story Store Secondary Content")
     storystore_pwa_accent_surface : String  @doc(description: "Story Store Accent Content")
     storystore_pwa_accent_content : String  @doc(description: "Story Store Accent Surface")
-    storystore_pwa_dark_mode : Boolean  @doc(description: "Story Store Dark Mode")
+    storystore_pwa_dark_mode : String  @doc(description: "Story Store Dark Mode")
     storystore_pwa_home_page : String  @doc(description: "Story Store Home Page")
     storystore_pwa_footer_block : String  @doc(description: "Story Store Footer Block")
     storystore_pwa_google_maps_api_key : String  @doc(description: "Google Maps Api Key")
