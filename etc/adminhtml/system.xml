@@ -32,6 +32,7 @@
                 <label>Colors</label>
                     <field id="dark_mode" translate="label" type="select" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="1">
                         <label>Dark Mode</label>
+                        <frontend_model>MagentoEse\StoryStore\Block\Disable</frontend_model>
                         <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
                     </field>
                     <field id="primary_surface" translate="label" type="text" sortOrder="2" showInDefault="1" showInWebsite="1" showInStore="1">
