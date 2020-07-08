@@ -1,4 +1,4 @@
-# Story Store
+# Story Store Module
 
 ## Installation
 
