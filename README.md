@@ -3,6 +3,10 @@
 ## Installation
 
  https://devdocs.magento.com/cloud/howtos/install-components.html#install-an-extension
+ 
+ ## Limitations
+ * Logo upload currently unavailable, please use the default config til updated: [logo-upload](https://docs.magento.com/user-guide/design/logo-upload.html)
+ * Dark mode disabled for now
 
 ## Configuration
 
