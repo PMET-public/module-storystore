@@ -4,3 +4,9 @@
 .category-view .category-image {
     display: none;
 }
+.pagebuilder-banner-wrapper {
+    overflow: hidden;
+  }
+  div[data-content-type] {
+    position: relative;
+}
